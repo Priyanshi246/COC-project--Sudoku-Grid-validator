@@ -18,8 +18,7 @@ seen[num] = true;
 return true;
 }
 <br>
-//check single colunm is valid 
-<br>
+
 bool check_col(int grid[SIZE][SIZE], int col){
 ool seen[SIZE+1] = {false};
 for(int row=0; row<SIZE; row++){
